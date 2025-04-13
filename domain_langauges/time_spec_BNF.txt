@@ -1,0 +1,5 @@
+// 4pm, 7:38pm, 23:42, 3:16, 3:16am
+<time-spec> ::= <hour> <minute> <morning-evening>
+<hour> ::= <1to12> | <0to24>
+<minute> ::= ":" <1to59> | ""
+<morning-evening> ::= "am" | "pm" | ""
